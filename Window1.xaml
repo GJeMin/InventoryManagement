@@ -29,7 +29,7 @@
                         </ListView.View>
                     </ListView>
                     <StackPanel Grid.Column="1" Width="200">
-                        <Label>품목 추가/수정</Label>
+                        <Label>품목 추가/수정1</Label>
 
                         <TextBlock>품목 ID</TextBlock>
                         <TextBox x:Name="txtItemId"  Margin="0,10"/>
