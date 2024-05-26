@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         xmlns:local="clr-namespace:InventoryManagement"
         mc:Ignorable="d"
         Title="Window1" Height="500" Width="800">
@@ -55,7 +56,7 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <ListView x:Name="allItems" Margin="0,0,10,0" ItemsSource="{Binding Chemicals}">
+                    <ListView x:Name="allItems" Margin="0,0,10,0" ItemsSource="{Binding Chemicals}" SelectedItem="{Binding SelectedChemical}">
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn Header="품목 ID" DisplayMemberBinding="{Binding ID}" Width="100"/>
@@ -65,17 +66,51 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
+                    <Button Grid.Column="1" Content="실험실에 추가" Click="AddToLab_Click"></Button>
                 </Grid>
             </TabItem>
             <TabItem Header="실험실">
-                <TextBox>
-                    박스
-                </TextBox>
+                <ListView x:Name="labItems" ItemsSource="{Binding LabItems}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="품목 ID" DisplayMemberBinding="{Binding ID}" Width="100"/>
+                            <GridViewColumn Header="물품명" DisplayMemberBinding="{Binding Name}" Width="200"/>
+                            <GridViewColumn Header="수량" DisplayMemberBinding="{Binding Count}" Width="100"/>
+                            <GridViewColumn Header="위험도" DisplayMemberBinding="{Binding Danger}" Width="100"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
             </TabItem>
             <TabItem Header="차트">
-                <TextBox>
-                    박스
-                </TextBox>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="400"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+
+                    <lvc:CartesianChart>
+                        <lvc:CartesianChart.Series>
+                            <lvc:LineSeries Values="{Binding Values}"/>
+                        </lvc:CartesianChart.Series>
+                        <lvc:CartesianChart.AxisX>
+                            <lvc:Axis Title="X축 이름"/>
+                        </lvc:CartesianChart.AxisX>
+                        <lvc:CartesianChart.AxisY>
+                            <lvc:Axis Title="X축 이름"/>
+                        </lvc:CartesianChart.AxisY>
+                    </lvc:CartesianChart>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <ComboBox Name="com" SelectedIndex="0" SelectionChanged="Com_SelectionChanged">
+                            <ComboBoxItem Content="화학"/>
+                            <ComboBoxItem Content="물리"/>
+                            <ComboBoxItem Content="생명"/>
+                        </ComboBox>
+                        <Button Margin="10 0 10 0" Content="조회" 
+                                Click="OnClick">
+                        </Button>
+                    </StackPanel>
+                </Grid>
             </TabItem>
         </TabControl>
     </Grid>
