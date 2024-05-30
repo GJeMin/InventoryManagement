@@ -6,7 +6,7 @@
         xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         xmlns:local="clr-namespace:InventoryManagement"
         mc:Ignorable="d"
-        Title="Window1" Height="500" Width="800">
+        Title="Window1" Height="500" Width="1000">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -51,6 +51,7 @@
                 </Grid>
             </TabItem>
             <TabItem Header="물품 조회">
+                <DataGrid Name="grd">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" />
@@ -59,24 +60,27 @@
                     <ListView x:Name="allItems" Margin="0,0,10,0" ItemsSource="{Binding Chemicals}" SelectedItem="{Binding SelectedChemical}">
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn Header="품목 ID" DisplayMemberBinding="{Binding ID}" Width="100"/>
-                                <GridViewColumn Header="물품명" DisplayMemberBinding="{Binding Name}" Width="200"/>
-                                <GridViewColumn Header="수량" DisplayMemberBinding="{Binding Count}" Width="100"/>
-                                <GridViewColumn Header="위험도" DisplayMemberBinding="{Binding Danger}" Width="100"/>
+                                <GridViewColumn Header="CAS-NO" DisplayMemberBinding="{Binding CAS_NO}" Width="100"/>
+                                <GridViewColumn Header="한글명" DisplayMemberBinding="{Binding Kor_Name}" Width="200"/>
+                                <GridViewColumn Header="영문명" DisplayMemberBinding="{Binding Eng_Name}" Width="200"/>
+                                <GridViewColumn Header="상태" DisplayMemberBinding="{Binding Status}" Width="100"/>
+                                <GridViewColumn Header="색" DisplayMemberBinding="{Binding Color}" Width="100"/>
                             </GridView>
                         </ListView.View>
                     </ListView>
                     <Button Grid.Column="1" Content="실험실에 추가" Click="AddToLab_Click"></Button>
                 </Grid>
+                </DataGrid>
             </TabItem>
             <TabItem Header="실험실">
                 <ListView x:Name="labItems" ItemsSource="{Binding LabItems}">
                     <ListView.View>
                         <GridView>
-                            <GridViewColumn Header="품목 ID" DisplayMemberBinding="{Binding ID}" Width="100"/>
-                            <GridViewColumn Header="물품명" DisplayMemberBinding="{Binding Name}" Width="200"/>
-                            <GridViewColumn Header="수량" DisplayMemberBinding="{Binding Count}" Width="100"/>
-                            <GridViewColumn Header="위험도" DisplayMemberBinding="{Binding Danger}" Width="100"/>
+                            <GridViewColumn Header="CAS-NO" DisplayMemberBinding="{Binding CAS_NO}" Width="100"/>
+                            <GridViewColumn Header="한글명" DisplayMemberBinding="{Binding Kor_Name}" Width="200"/>
+                            <GridViewColumn Header="영문명" DisplayMemberBinding="{Binding Eng_Name}" Width="200"/>
+                            <GridViewColumn Header="상태" DisplayMemberBinding="{Binding Status}" Width="100"/>
+                            <GridViewColumn Header="색" DisplayMemberBinding="{Binding Color}" Width="100"/>
                         </GridView>
                     </ListView.View>
                 </ListView>

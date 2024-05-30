@@ -15,6 +15,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MySqlConnector;
+
 
 namespace InventoryManagement
 {
@@ -23,6 +25,7 @@ namespace InventoryManagement
     /// </summary>
     public partial class Window1 : Window, INotifyPropertyChanged
     {
+        MySqlConnection conn = new MySqlConnection("Server=localhost;Uid=root;Database=chemistry_matter;port=3305;pwd=root");
         float[] dataArray = new float[] { };
         
         private ChartValues<float> _values;
@@ -82,13 +85,33 @@ namespace InventoryManagement
                 3, 4, 6, 3, 2, 6, 4, 3, 6, 7, 8, 7, 8, 8
             };
             
-            Chemicals = new List<Chemical>
+            /*Chemicals = new List<Chemical>
             {
                 new Chemical { ID = 1, Name = "Hydrochloric Acid", Count = 5, Danger = "High" },
                 new Chemical { ID = 2, Name = "Sodium Chloride", Count = 10, Danger = "Low" }
-            };
+            };*/
+            List<Chemical> chemicals = new List<Chemical>();
+            string query = "SELECT cas_no, chemical_korean_name, chemical_eng_name, status, color FROM chemistry_matter";
+            MySqlCommand command = new MySqlCommand(query, conn);
+            conn.Open();
+            MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    Chemical chemical = new Chemical
+                    {
+                        CAS_NO = reader.GetString("CAS_NO"),
+                        Kor_Name = reader.GetString("Kor_Name"),
+                        Eng_Name = reader.GetString("Eng_Name"),
+                        Status = reader.GetString("Status"),
+                        Color = reader.GetString("Color")
+                    };
+                    chemicals.Add(chemical);
+                }
+            conn.Close();
             LabItems = new ObservableCollection<Chemical>();
         }
+
+
 
         private void AddToLab_Click(object sender, RoutedEventArgs e)
         {
@@ -137,9 +160,10 @@ namespace InventoryManagement
 
     public class Chemical
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public int Count { get; set; }
-        public string Danger { get; set; }
+        public String CAS_NO { get; set; }
+        public string Kor_Name { get; set; }
+        public string Eng_Name { get; set; }
+        public String Status { get; set; }
+        public string Color { get; set; }
     }
 }

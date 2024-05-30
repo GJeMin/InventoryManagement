@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WiXYVrKBeFtStuzt5OqoWdztEPENJC6ZxxzGDXPUGhv4Q6UevLPRfbxGTm4d2l5D/DdVlJRLVb7+9wwFFCFb8Q==",
+  "dgSpecHash": "lcxJqC3RleOQiAzZ/1oGx18ptUoHe2tp4f1QLr2C2nEv7e/kivjvQNDednTltSv/mhWffm6VeKumO1ngYP3IlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DB111-2\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DB111-2\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\DB111-2\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"
   ],
   "logs": [
     {

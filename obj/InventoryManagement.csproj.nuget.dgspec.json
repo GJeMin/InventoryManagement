@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DB111-2\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj": {}
+    "C:\\Users\\ASUS\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DB111-2\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj": {
+    "C:\\Users\\ASUS\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DB111-2\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj",
         "projectName": "InventoryManagement",
-        "projectPath": "C:\\Users\\DB111-2\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj",
-        "packagesPath": "C:\\Users\\DB111-2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DB111-2\\RiderProjects\\InventoryManagement\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\RiderProjects\\InventoryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DB111-2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "LiveCharts.Wpf": {
               "target": "Package",
               "version": "[0.9.7, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.7, )"
             }
           },
           "imports": [
@@ -64,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
