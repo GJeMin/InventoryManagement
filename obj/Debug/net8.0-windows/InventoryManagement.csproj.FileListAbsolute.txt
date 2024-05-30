@@ -47,3 +47,5 @@ C:\Users\DB111-2\RiderProjects\InventoryManagement\bin\Debug\net8.0-windows\Live
 C:\Users\DB111-2\RiderProjects\InventoryManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
 C:\Users\DB111-2\RiderProjects\InventoryManagement\obj\Debug\net8.0-windows\InventoryManagement.csproj.AssemblyReference.cache
 C:\Users\DB111-2\RiderProjects\InventoryManagement\obj\Debug\net8.0-windows\Inventor.F96114ED.Up2Date
+C:\Users\DB111-2\RiderProjects\InventoryManagement\obj\Debug\net8.0-windows\Views\ChemicalView.g.cs
+C:\Users\DB111-2\RiderProjects\InventoryManagement\obj\Debug\net8.0-windows\Views\ChemicalView.baml

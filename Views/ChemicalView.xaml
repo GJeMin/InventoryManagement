@@ -1,13 +1,14 @@
-﻿<Window x:Class="InventoryManagement.Window1"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
-        xmlns:local="clr-namespace:InventoryManagement"
-        mc:Ignorable="d"
-        Title="Window1" Height="500" Width="1000">
-    <Grid Margin="10">
+﻿<UserControl x:Class="InventoryManagement.Views.ChemicalView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:InventoryManagement.Views"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             mc:Ignorable="d"
+             d:DesignHeight="500" d:DesignWidth="1000">
+    <Grid>
+        <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -56,7 +57,7 @@
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <ListView x:Name="allItems" Margin="0,0,10,0" ItemsSource="{Binding Chemicals}" SelectedItem="{Binding SelectedChemical}">
+                    <ListView x:Name="allItems" Margin="0,0,10,0" ItemsSource="{Binding ChemicalList}" SelectedItem="{Binding SelectedChemical}">
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn Header="CAS-NO" DisplayMemberBinding="{Binding CAS_NO}" Width="100"/>
@@ -103,17 +104,18 @@
                         </lvc:CartesianChart.AxisY>
                     </lvc:CartesianChart>
                     <StackPanel Grid.Row="1" Orientation="Horizontal">
-                        <ComboBox Name="com" SelectedIndex="0" SelectionChanged="Com_SelectionChanged">
+                        <ComboBox Name="com" SelectedIndex="0">
                             <ComboBoxItem Content="화학"/>
                             <ComboBoxItem Content="물리"/>
                             <ComboBoxItem Content="생명"/>
                         </ComboBox>
                         <Button Margin="10 0 10 0" Content="조회" 
-                                Click="OnClick">
+                                >
                         </Button>
                     </StackPanel>
                 </Grid>
             </TabItem>
         </TabControl>
     </Grid>
-</Window>
+    </Grid>
+</UserControl>

@@ -84,8 +84,7 @@ namespace InventoryManagement
             
             Chemicals = new List<Chemical>
             {
-                new Chemical { ID = 1, Name = "Hydrochloric Acid", Count = 5, Danger = "High" },
-                new Chemical { ID = 2, Name = "Sodium Chloride", Count = 10, Danger = "Low" }
+                new Chemical { CAS_NO = "qwer", Kor_Name = "Hydrochloric Acid", Eng_Name = "Hydrochloric Acid", Status = "qwer", Color = "High" }
             };
             LabItems = new ObservableCollection<Chemical>();
         }
@@ -137,9 +136,10 @@ namespace InventoryManagement
 
     public class Chemical
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public int Count { get; set; }
-        public string Danger { get; set; }
+        public string CAS_NO { get; set; }
+        public string Kor_Name { get; set; }
+        public string Eng_Name { get; set; }
+        public string Status { get; set; }
+        public string Color { get; set; }
     }
 }
