@@ -17,7 +17,7 @@ namespace InventoryManagement.ViewModels
             set
             {
                 _selectedChemical = value;
-                OnPropertyChanged(nameof(SelectedChemical));
+                OnPropertyChanged(nameof(SelectedChemical)); 
             }
         }
 

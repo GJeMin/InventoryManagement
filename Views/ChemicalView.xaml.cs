@@ -13,7 +13,7 @@ namespace InventoryManagement.Views
             InitializeComponent();
             _viewModel = new ChemicalViewModel();
             DataContext = _viewModel;
-        }
+        } 
 
         private void AddToLab_Click(object sender, RoutedEventArgs e)
         {

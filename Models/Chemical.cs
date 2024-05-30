@@ -9,3 +9,4 @@ public class Chemical
     public string Status { get; set; }
     public string Color { get; set; }
 }
+ 

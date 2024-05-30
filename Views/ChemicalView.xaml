@@ -111,7 +111,7 @@
                         </ComboBox>
                         <Button Margin="10 0 10 0" Content="조회" 
                                 >
-                        </Button>
+                        </Button> 
                     </StackPanel>
                 </Grid>
             </TabItem>
