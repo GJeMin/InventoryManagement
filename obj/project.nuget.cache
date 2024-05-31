@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WiXYVrKBeFtStuzt5OqoWdztEPENJC6ZxxzGDXPUGhv4Q6UevLPRfbxGTm4d2l5D/DdVlJRLVb7+9wwFFCFb8Q==",
+  "dgSpecHash": "PmGnaFJngpzziDjZ7zP/L+cVm9tbFEkMwVCsjzEG24UpqmP8HvC7kzBaPQ9hjP3UatNh2vohNQNhmx3/raLQgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DB111-2\\RiderProjects\\InventoryManagement\\InventoryManagement.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\InventoryManagement\\InventoryManagement.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DB111-2\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\DB111-2\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
   ],
   "logs": [
     {

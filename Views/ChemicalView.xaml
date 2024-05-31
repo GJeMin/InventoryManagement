@@ -52,25 +52,81 @@
                 </Grid>
             </TabItem>
             <TabItem Header="물품 조회">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <ListView x:Name="allItems" Margin="0,0,10,0" ItemsSource="{Binding ChemicalList}" SelectedItem="{Binding SelectedChemical}">
-                        <ListView.View>
-                            <GridView>
-                                <GridViewColumn Header="CAS-NO" DisplayMemberBinding="{Binding CAS_NO}" Width="100"/>
-                                <GridViewColumn Header="한글명" DisplayMemberBinding="{Binding Kor_Name}" Width="200"/>
-                                <GridViewColumn Header="영문명" DisplayMemberBinding="{Binding Eng_Name}" Width="200"/>
-                                <GridViewColumn Header="상태" DisplayMemberBinding="{Binding Status}" Width="100"/>
-                                <GridViewColumn Header="색" DisplayMemberBinding="{Binding Color}" Width="100"/>
-                            </GridView>
-                        </ListView.View>
-                    </ListView>
-                    <Button Grid.Column="1" Content="실험실에 추가" Click="AddToLab_Click"></Button>
-                </Grid>
-            </TabItem>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <ListView x:Name="allItems" Margin="0,0,10,0" ItemsSource="{Binding ChemicalList}" SelectedItem="{Binding SelectedChemical}">
+            <ListView.Resources>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="BorderBrush" Value="Black"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                    <Setter Property="Margin" Value="1"/>
+                </Style>
+            </ListView.Resources>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="CAS-NO" Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Black" BorderThickness="1" Padding="2">
+                                    <TextBlock Text="{Binding CAS_NO}" />
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="한글명" Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Black" BorderThickness="1" Padding="2">
+                                    <TextBlock Text="{Binding Kor_Name}" />
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="영문명" Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Black" BorderThickness="1" Padding="2">
+                                    <TextBlock Text="{Binding Eng_Name}" />
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="상태" Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Black" BorderThickness="1" Padding="2">
+                                    <TextBlock Text="{Binding Status}" />
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="색" Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Black" BorderThickness="1" Padding="2">
+                                    <TextBlock Text="{Binding Color}" />
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="상세보기" Width="100">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Black" BorderThickness="1" Padding="2">
+                                    <Button HorizontalAlignment="Center" Content="상세보기" Width="100" Height="20" Click="DetailsButton_Click"></Button>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Width="200" Height="40" Grid.Column="1" Content="실험실에 추가" Click="AddToLab_Click"></Button>
+    </Grid>
+        </TabItem>
             <TabItem Header="실험실">
                 <ListView x:Name="labItems" ItemsSource="{Binding LabItems}">
                     <ListView.View>
@@ -80,6 +136,17 @@
                             <GridViewColumn Header="영문명" DisplayMemberBinding="{Binding Eng_Name}" Width="200"/>
                             <GridViewColumn Header="상태" DisplayMemberBinding="{Binding Status}" Width="100"/>
                             <GridViewColumn Header="색" DisplayMemberBinding="{Binding Color}" Width="100"/>
+                            <GridViewColumn Header="수량" Width="100">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                            <Button Content="-" Width="20" Click="DecreaseQuantity_Click"/>
+                                            <TextBlock Text="{Binding Quantity}" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"/>
+                                            <Button Content="+" Width="20" Click="IncreaseQuantity_Click"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
                         </GridView>
                     </ListView.View>
                 </ListView>

@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using InventoryManagement.Models;
 using InventoryManagement.ViewModels;
 
 namespace InventoryManagement.Views
@@ -17,9 +18,29 @@ namespace InventoryManagement.Views
 
         private void AddToLab_Click(object sender, RoutedEventArgs e)
         {
-            if (_viewModel.SelectedChemical != null && !_viewModel.LabItems.Contains(_viewModel.SelectedChemical))
+            _viewModel.AddToLab();
+        }
+        private void DetailsButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button button && button.DataContext is Chemical selectedChemical)
             {
-                _viewModel.LabItems.Add(_viewModel.SelectedChemical);
+                var detailsWindow = new DetailsWindow(selectedChemical);
+                detailsWindow.Show();
+            }
+        }
+        private void IncreaseQuantity_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button button && button.DataContext is MyChemical chemical)
+            {
+                _viewModel.IncreaseQuantity(chemical);
+            }
+        }
+
+        private void DecreaseQuantity_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button button && button.DataContext is MyChemical chemical)
+            {
+                _viewModel.DecreaseQuantity(chemical);
             }
         }
     }
