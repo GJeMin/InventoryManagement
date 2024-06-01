@@ -5,7 +5,7 @@ using InventoryManagement.ViewModels;
 
 namespace InventoryManagement.Views
 {
-    public partial class ChemicalView : UserControl
+    public partial class ChemicalView : Window
     {
         private ChemicalViewModel _viewModel;
 
@@ -42,6 +42,19 @@ namespace InventoryManagement.Views
             {
                 _viewModel.DecreaseQuantity(chemical);
             }
+        }
+        
+        private void open_Click(object sender, RoutedEventArgs e)
+        {
+            open.Visibility = Visibility.Collapsed;
+            close.Visibility = Visibility.Visible;
+            manaText.Visibility = Visibility.Visible;
+        }
+        private void close_Click(object sender, RoutedEventArgs e)
+        {
+            open.Visibility = Visibility.Visible;
+            close.Visibility = Visibility.Collapsed;
+            manaText.Visibility = Visibility.Collapsed;
         }
     }
 }

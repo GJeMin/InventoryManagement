@@ -10,6 +10,185 @@
 
   <ItemGroup>
     <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.0.1-ci646" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="InventoryManagement_p5mfqyqp_wpftmp.csproj" />
+    <Content Include="obj\Debug\net8.0-windows\App.baml" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_0cak1stv_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_0cak1stv_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_0cak1stv_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_0re3nvqa_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_0re3nvqa_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_0re3nvqa_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_23hqr1qg_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_23hqr1qg_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_23hqr1qg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_23hqr1qg_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_2amkhzng_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_2amkhzng_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_2amkhzng_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_2fccb5tv_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_2fccb5tv_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_3c5fpjkc_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_3o5prcvk_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_3o5prcvk_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_3o5prcvk_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_3o5prcvk_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_3utkc5ee_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4blse3on_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4blse3on_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4blse3on_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4ffnpggp_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4ffnpggp_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4ffnpggp_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4ffnpggp_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4rx1uxwf_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4rx1uxwf_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_4rx1uxwf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_5noqsrfb_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_5noqsrfb_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_5noqsrfb_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_5noqsrfb_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ba4batz5_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ba4batz5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ba4batz5_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_bln4pjm5_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_bln4pjm5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_bln4pjm5_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_d5wdpe3m_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_d5wdpe3m_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_d5wdpe3m_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ejws3unq_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ejws3unq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ejws3unq_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_f2gogdu3_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_f2gogdu3_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_f2gogdu3_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_g1ftzqlf_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_g1ftzqlf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_g1ftzqlf_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_hpvbzga0_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_hpvbzga0_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_hpvbzga0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_i1qulloc_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_i1qulloc_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_i1qulloc_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_i1qulloc_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_k1e24r53_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_k1e24r53_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_k1e24r53_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_l10jacdh_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_l10jacdh_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_l10jacdh_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_l10jacdh_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_l4pyl3vr_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_l4pyl3vr_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_MarkupCompile.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_MarkupCompile.lref" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_n44wylyc_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_n44wylyc_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_p5mfqyqp_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_p5mfqyqp_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_pb2d3gyp_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_pb2d3gyp_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_pv2zblrp_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_pv2zblrp_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_pv2zblrp_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_pymyng24_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_qap2d2h0_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_qap2d2h0_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_qehhxezk_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_qehhxezk_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_qehhxezk_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_qjcczmmy_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_qjcczmmy_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_qjcczmmy_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_qjcczmmy_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_twguxfi2_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_twguxfi2_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_twguxfi2_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_u2kqfmi2_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_u2kqfmi2_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_u2kqfmi2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ugiyd3s5_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ugiyd3s5_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ugiyd3s5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_ugiyd3s5_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_w1yw11pv_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_w1yw11pv_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_w1yw11pv_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_w1yw11pv_wpftmp.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_w4cd1c23_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_xj5tacki_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_xj5tacki_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_xj5tacki_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_xmhd1uap_wpftmp.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_xmhd1uap_wpftmp.assets.cache" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_xmhd1uap_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net8.0-windows\InventoryManagement_yyusyb4w_wpftmp.assets.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_0cak1stv_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_0cak1stv_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_0re3nvqa_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_0re3nvqa_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_23hqr1qg_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_23hqr1qg_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_2amkhzng_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_2fccb5tv_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_3c5fpjkc_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_3utkc5ee_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_3utkc5ee_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_4blse3on_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_4blse3on_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_4ffnpggp_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_4rx1uxwf_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_5noqsrfb_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_ba4batz5_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_ba4batz5_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_bln4pjm5_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_d5wdpe3m_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_ejws3unq_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_f2gogdu3_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_f2gogdu3_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_g1ftzqlf_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_hpvbzga0_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_hpvbzga0_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_i1qulloc_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_i1qulloc_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_k1e24r53_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_l10jacdh_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_l4pyl3vr_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_p5mfqyqp_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_p5mfqyqp_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_pv2zblrp_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_pymyng24_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_pymyng24_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_qap2d2h0_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_qap2d2h0_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_qehhxezk_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_qehhxezk_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_twguxfi2_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_u2kqfmi2_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_u2kqfmi2_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_ugiyd3s5_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_w1yw11pv_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_w4cd1c23_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_xj5tacki_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_xmhd1uap_wpftmp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_xmhd1uap_wpftmp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0-windows\InventoryManagement_yyusyb4w_wpftmp.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net8.0-windows\MainWindow.baml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net8.0-windows\Views\ChemicalView.baml" />
   </ItemGroup>
 
 </Project>

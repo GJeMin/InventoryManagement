@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ASUS\Desktop\InventoryManagement\obj\Debug\net8.0-windows\
+C:\Users\DB111-2\RiderProjects\InventoryManagement\obj\Debug\net8.0-windows\
 InventoryManagement
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\ASUS\Desktop\InventoryManagement\App.xaml
+C:\Users\DB111-2\RiderProjects\InventoryManagement\App.xaml
 4569417508
-
-10-1659828603
-200-462971144
+116-1825673862
+601872118867
+203895886933
 MainWindow.xaml;Views\ChemicalView.xaml;Views\DetailsWindow.xaml;Window1.xaml;
 
-False
+True
 
